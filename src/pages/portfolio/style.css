@@ -19,10 +19,16 @@
     transition: 0.3s ease;
     font-size: 0;
     min-height: 300px;
+    overflow: hidden;
 }
 
 .po_item img {
     max-width: 100%;
+    width: 100%;
+    height: auto;
+    display: block;
+    min-height: 300px;
+    object-fit: cover;
 }
 
 .po_item .content {
